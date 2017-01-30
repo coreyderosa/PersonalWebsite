@@ -1,0 +1,85 @@
+head{
+	
+}
+
+
+
+body{
+	border-style: solid;
+	border-color: red;
+}
+
+header{
+	border-style: solid;
+	border-color: blue;
+	border-style: dashed;
+	
+	text-align:center;
+	text-align:center;
+	
+	background-image: url("http://i.imgur.com/q5GORf2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	height: 100vh; /*This is the setting that makes the image fullscreen*/
+		
+	/*Below code centers the text in the middle of the screen*/
+	display: flex;
+	display: -webkit-flex;
+	
+	align-items: center;
+	-website-align-items: center;
+	
+	justify-content: center;
+	-webkit-justify-content: center;
+	
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	
+}
+
+.headerText{
+	margin: 85px;
+	font-size: 40px;
+}
+
+.border{
+	border-style: solid;
+	border-color: green;
+}
+
+.well {
+   background-color: rgba(245, 245, 245, 0.4);
+}
+
+p{
+	
+	text-align: center;
+	margin: auto;
+}
+
+section{
+	
+	border-style: solid;
+	border-color: aqua;
+	background-image: url("http://i.imgur.com/KhEpQVs.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 100vh;
+	background-size: cover;
+	
+		/*Below code centers the text in the middle of the screen*/
+	display: flex;
+	display: -webkit-flex;
+	
+	align-items: center;
+	-website-align-items: center;
+	
+	justify-content: center;
+	-webkit-justify-content: center;
+	
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+}
+	
